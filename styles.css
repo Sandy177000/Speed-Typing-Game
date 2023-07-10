@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    color: rgb(200, 200, 200);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 12px;
+    width: 700px;
+    max-width: 90%;
+    
+}
+
+.timer{
+    width: 140px;
+    height: 140px;
+    padding-top: 2.2rem;
+    filter: blur(2);
+    background-color: black;
+    border-radius: 50%;
+    border: 2px rgba(255, 255, 255, 0.634) solid;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 2rem;
+    font-size: 3rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+.quote-display{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+
+}
+
+
+.quote-input{
+    background-color: transparent;
+    border: 2px solid rgba(133, 133, 133, 0.468);
+    border-radius: 12px;
+    width: 100%;
+    height: 12rem;
+    margin: auto;
+    resize: none;
+}
+
+.quote-input:focus{
+    border: 2px solid rgb(141, 141, 141);
+}
+
+
+.correct{
+    color:rgb(82, 255, 82);
+    
+}
+.correct-cont{
+    
+    box-shadow: 1px 1px 1000px 50px rgb(82, 255, 82);
+}
+.incorrect-cont{
+    
+    box-shadow: 1px 1px 1000px 50px rgb(255, 0, 0);
+}
+.incorrect{
+    color: rgb(255,0,0);
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: transparent;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    border: 2px rgb(72, 72, 72) solid;
+    border-radius: 12px;
+    width: 80px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

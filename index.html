@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Typing Game</title>
+    <link rel="icon" type="image/x-icon" href="keyboard.png"></link>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="timer" id="timer">0</div>
+    <div class="container" id="cont">
+        <div class="quote-display" id ="quoteDisplay"></div>
+        <textarea  id="quoteInput" class="quote-input" 
+           onpaste="return false"
+           autofocus></textarea>
+        <button class="btn" onclick=reset()> Reset </button>
+    </div>
+    
+</body>
+</html>
